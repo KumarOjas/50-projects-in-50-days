@@ -1,0 +1,149 @@
+:root {
+    --first-color: #ff4c68;
+    --second-color: #ef8172;
+    --third-color: #fff;
+    --fourth-color: #8f8f8f;
+}
+
+#cta, #title {
+    background-color: var(--first-color);
+    color: var(--third-color);
+}
+
+#features {
+    background-color: var(--third-color);
+    display: block;
+    margin: 0 auto;
+    padding: 6rem 0;
+    position: relative;
+    width: 80%;
+}   
+
+#footer {
+    background-color: var(--third-color);
+}
+
+#press {
+    background-color: var(--second-color);
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 3rem 5.5rem;
+}
+
+#testimonials {
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.carousel-item {
+    padding: 7% 10%;
+}
+
+.cta-elements {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.6;
+    margin: auto;
+    padding: 4rem 0 0 0;
+    width: 65%;
+}
+
+.download-button {
+    margin: 6% 1.5% 10%;
+}
+
+.icons {
+    color: var(--second-color);
+    padding-bottom: 0.8rem;
+    ;
+}
+
+.icons:hover {
+    color: var(--first-color);
+}
+
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.press-logo {
+    margin: 1.25rem 1.25rem 3.25rem;
+    width: 15%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.social-icons {
+    margin: 9% 1% 2%;
+}
+
+.testimonial-image {
+    border-radius: 100%;  /*  Makes image into a circle  */
+    margin: 1.5rem;
+    width: 10%;
+}
+
+.title-image {
+    margin: 0 0 0 10%;
+    position: absolute;
+    right: 30%;
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p { 
+    color: var(--fourth-color);
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);  /* rotate uses absolute, not relative degrees */
+    }
+}
